@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: rgb(71 143 239);
+}
+
+nav {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ebf5fb;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+p{
+    margin: 0;
+    font-size: 20px;
+}
+
+nav .logo{
+    flex-basis: 17%;
+}
+.logo img{
+    width: 240px;
+}
+nav .menu{
+    text-align: center;
+    flex-basis: 80%;
+}
+
+.menu a{
+    color: #000;
+    font-size: 20px;
+    padding: 7px 15px;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    box-shadow: 0 0 0 1px #000;
+    transition-duration: 0.2s;
+    color: #092730;
+    background-color: #4299e1;
+    color: white;
+}
+.hero-banner{
+    background-image: url(../images/hero-banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding: 150px 0;
+}
+.hero-banner-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.hero-banner-content h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+    max-width: 950px;
+    color: #2c3748;
+}
+.gallery-section {
+    background: rgb(45,55,76);
+    background: linear-gradient(326deg, rgba(45,55,76,1) 50%, rgba(66,153,225,1) 50%);
+}
+.gallery{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery div{
+    flex-basis: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.gallery div img{
+    display: block;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+.gallery div img:hover {
+    opacity: 0.3;
+    box-shadow: 5px 5px 5px #fff;
+}
+footer{
+    padding: 30px 0px;
+    text-align: center;
+}
+footer p{
+    margin: 0 auto;
+    letter-spacing: 1px;
+    color: #2c3748;
+    font-weight: 400;
+}
+footer p a{
+    font-weight: 800px;
+    color: #192230;
+}
